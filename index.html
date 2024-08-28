@@ -1,9 +1,129 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Munir Siddiqui - Personal Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: right;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        section {
+            padding: 20px 0 20px 0;
+        }
+        .main-content {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
 <body>
-  <h1>Munir Siddiqui</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
+    <header>
+        <div class="container">
+            <h1>Munir Siddiqui</h1>
+            <ul>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#leadership">Leadership</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+    </header>
 
+    <div class="container">
+        <section id="about" class="main-content">
+            <h2>About</h2>
+            <p>Munir Siddiqui is a recent graduate from the University of Maryland with a degree in Biological Sciences, specializing in Ecology and Evolution. He has extensive research experience and a passion for understanding social behavior in animals...</p>
+        </section>
+
+        <section id="education" class="main-content">
+            <h2>Education</h2>
+            <p>Bachelor of Science, Biological Sciences: Ecology and Evolution, University of Maryland, College Park (2024)</p>
+        </section>
+
+        <section id="experience" class="main-content">
+            <h2>Work/Research Experience</h2>
+            <ul>
+                <li>Research Assistant, Wilkinson Lab, University of Maryland (2021-Present)</li>
+                <li>Scientific Communications Intern, HOPPR.ai (2023)</li>
+                <li>Learning Assistant, Global Change Project, BSCI Department (2023)</li>
+            </ul>
+        </section>
+
+        <section id="publications" class="main-content">
+            <h2>Publications</h2>
+            <ul>
+                <li>Developmental social experience with mature adults leads to lowered vigilance in subadult Corydoras catfish (Under Review)</li>
+                <li>Tactile communication across Corydoras species (ABS 2023 Meeting)</li>
+            </ul>
+        </section>
+
+        <section id="leadership" class="main-content">
+            <h2>Leadership</h2>
+            <ul>
+                <li>Treasurer, Maryland Academic Quiz Team (2022-Present)</li>
+                <li>Event Manager, University of Maryland Science Olympiad (2021-2022)</li>
+                <li>Eagle Scout, BSA Troop 51 (2020)</li>
+            </ul>
+        </section>
+
+        <section id="skills" class="main-content">
+            <h2>Skills</h2>
+            <p>Programming: Python, MATLAB, R</p>
+            <p>Software: Adobe Illustrator, Photoshop, Microsoft Office, Google Suite, Jupyter Notebook</p>
+            <p>Languages: English (Fluent), Spanish (Intermediate)</p>
+        </section>
+
+        <section id="contact" class="main-content">
+            <h2>Contact</h2>
+            <p>Email: munir@siddiqui.md</p>
+            <p>Phone: 443-838-3143</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>Munir Siddiqui © 2024</p>
+    </footer>
+</body>
 </html>
